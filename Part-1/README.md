@@ -18,7 +18,7 @@ These switches are particularly useful when dealing with:
 
 - Wnd + R to run the cmd —> `outlook.exe /safe`
 
-<img width="295" height="225" alt="image 4" src="https://github.com/user-attachments/assets/3a417927-018d-4efb-b87d-a39bdddd0d3e" />
+<img width="398" height="194" alt="image" src="https://github.com/user-attachments/assets/a3dd184e-f2e2-4e4a-837c-58b7371fd344" />
 
 This is useful when Outlook is behaving strangely or crashing, particularly when an **add-in** may be responsible.
 
@@ -28,7 +28,7 @@ This is useful when Outlook is behaving strangely or crashing, particularly when
 - Disable/uncheck the suspected problematic add-in.
 - Restart Outlook normally.
 
-<img width="387" height="376" alt="image 3" src="https://github.com/user-attachments/assets/b600ecb1-16a3-498f-80fe-593a3ad58ac4" />
+<img width="927" height="902" alt="image 1" src="https://github.com/user-attachments/assets/75abb978-0e27-4d13-a9de-da1bdd823941" />
 
 **Troubleshooting logic:**
 
@@ -50,7 +50,7 @@ Does Outlook behave normally?
 
 - Wnd + R to run the cmd—> `outlook.exe /cleancategories`
 
-<img width="342" height="176" alt="image 2" src="https://github.com/user-attachments/assets/c588a46a-b4e9-4cdd-8e17-9e70cd52c207" />
+<img width="342" height="176" alt="image 2" src="https://github.com/user-attachments/assets/2a9cc5ed-5b9c-4697-bf1c-88555da6b785" />
 
 When to use it
 
@@ -65,7 +65,7 @@ In the demonstration, an existing category was assigned to an email. After runni
 
 This is a **reset/cleanup operation**, not a harmless diagnostic command.
 
-<img width="927" height="902" alt="image 1" src="https://github.com/user-attachments/assets/8c5c3e4c-6068-434d-b241-ca063e88e2bb" />
+<img width="387" height="376" alt="image 3" src="https://github.com/user-attachments/assets/327be57b-9b7f-49a2-b065-ed48bee51a23" />
 
 ## Outlook Rules
 
@@ -79,13 +79,13 @@ Move email to specific folder
 
 - Rules are useful for automatically organizing messages.
 
-<img width="335" height="177" alt="image 8" src="https://github.com/user-attachments/assets/05ee2f13-a8f0-4c67-a5e5-1890fdf0a3ab" />
+<img width="295" height="225" alt="image 4" src="https://github.com/user-attachments/assets/bc2e9da9-c1d9-46aa-83c7-427cf45723d6" />
 
 ## Clearing Client Rules
 
 - Wnd + R to run the cmd—>`outlook.exe /cleanclientrules`
 
-<img width="340" height="180" alt="image 7" src="https://github.com/user-attachments/assets/697b563d-8bd9-4b9d-9dca-10c2b7f94432" />
+<img width="348" height="181" alt="image 5" src="https://github.com/user-attachments/assets/d70f1a7f-20af-438b-8622-1444479c8a34" />
 
 Removes the **client-side Outlook rules**.
 
@@ -95,13 +95,13 @@ Removes the **client-side Outlook rules**.
 
 **View → Change View → Save Current View as a New View**
 
-!image.png
+<img width="604" height="700" alt="image 6" src="https://github.com/user-attachments/assets/38a2cd1d-0528-4c54-b4f9-8188747d2f5f" />
 
 ## Clearing Outlook Views
 
 - Wnd + R to run the cmd—> `outlook.exe /cleanviews`
 
-<img width="604" height="700" alt="image 6" src="https://github.com/user-attachments/assets/4b4d9e57-0de4-4dea-881f-958756dbe510" />
+<img width="340" height="180" alt="image 7" src="https://github.com/user-attachments/assets/8c3031f5-6ff9-414e-bb0b-4339d89f9f02" />
 
 Resets/clears Outlook's custom view settings.
 
@@ -115,7 +115,15 @@ Useful when:
 
 - Wnd + R to run the cmd—> `outlook.exe /nopreview`
 
-<img width="348" height="181" alt="image 5" src="https://github.com/user-attachments/assets/2852bf4b-4967-46c1-a4fa-3abc4a4dad69" />
+<img width="335" height="177" alt="image 8" src="https://github.com/user-attachments/assets/f2f76ae7-c8ce-4a04-86cf-b0d368f9a8b8" />
 
 Starts Outlook with the **Reading Pane disabled**.
 A user is experiencing problems potentially associated with the Reading Panel or simply needs Outlook opened without message preview.
+
+CMDs Sheet
+Command	                    Purpose
+outlook.exe /safe	Start         Outlook in Safe Mode
+outlook.exe /cleancategories	  Clear Outlook categories
+outlook.exe /cleanclientrules	  Remove client-side Outlook rules
+outlook.exe /cleanviews	        Reset/clear custom Outlook views
+outlook.exe /nopreview	        Start Outlook with Reading Pane disabled
