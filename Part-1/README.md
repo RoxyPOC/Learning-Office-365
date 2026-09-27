@@ -124,15 +124,13 @@ CMDs Sheet
 
 | Command | Purpose |
 |---|---|---|
-| outlook.exe /safe | Start Outlook in Safe Mode |
-| outlook.exe /cleancategories | Clear Outlook categories |
-| outlook.exe /cleanclientrules | Remove client-side Outlook rules |
-| outlook.exe /cleanviews | Reset/clear custom Outlook views |
-| outlook.exe /nopreview | Start Outlook with Reading Pane disabled |
-
-┌────────────────┐ ┌────────────────┐ ┌────────────────┐
-│ 📋 TODO        │ │ 🔨 IN PROGRESS │ │ ✅ DONE        │
-├────────────────┤ ├────────────────┤ ├────────────────┤
-│ Part 3         │ │ Part 2         │ │ Part 1         │
-│ Exchange       │ │ Entra ID       │ │ M365 Basics    │
-└────────────────┘ └────────────────┘ └────────────────┘
+| outlook.exe /safe 
+| Start Outlook in Safe Mode |
+| outlook.exe /cleancategories 
+| Clear Outlook categories |
+| outlook.exe /cleanclientrules 
+| Remove client-side Outlook rules |
+| outlook.exe /cleanviews 
+| Reset/clear custom Outlook views |
+| outlook.exe /nopreview 
+| Start Outlook with Reading Pane disabled |
