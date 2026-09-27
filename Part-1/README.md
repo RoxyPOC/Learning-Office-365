@@ -121,9 +121,9 @@ Starts Outlook with the **Reading Pane disabled**.
 A user is experiencing problems potentially associated with the Reading Panel or simply needs Outlook opened without message preview.
 
 CMDs Sheet
-Command	                    Purpose
-outlook.exe /safe	Start         Outlook in Safe Mode
-outlook.exe /cleancategories	  Clear Outlook categories
-outlook.exe /cleanclientrules	  Remove client-side Outlook rules
-outlook.exe /cleanviews	        Reset/clear custom Outlook views
-outlook.exe /nopreview	        Start Outlook with Reading Pane disabled
+| Command | Purpose |
+| outlook.exe /safe | Start Outlook in Safe Mode |
+| outlook.exe /cleancategories | Clear Outlook categories |
+| outlook.exe /cleanclientrules | Remove client-side Outlook rules |
+| outlook.exe /cleanviews | Reset/clear custom Outlook views |
+| outlook.exe /nopreview | Start Outlook with Reading Pane disabled |
