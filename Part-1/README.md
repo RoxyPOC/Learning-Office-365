@@ -18,7 +18,7 @@ These switches are particularly useful when dealing with:
 
 - Wnd + R to run the cmd —> `outlook.exe /safe`
 
-!image.png
+<img width="295" height="225" alt="image 4" src="https://github.com/user-attachments/assets/3a417927-018d-4efb-b87d-a39bdddd0d3e" />
 
 This is useful when Outlook is behaving strangely or crashing, particularly when an **add-in** may be responsible.
 
@@ -28,7 +28,7 @@ This is useful when Outlook is behaving strangely or crashing, particularly when
 - Disable/uncheck the suspected problematic add-in.
 - Restart Outlook normally.
 
-!image.png
+<img width="387" height="376" alt="image 3" src="https://github.com/user-attachments/assets/b600ecb1-16a3-498f-80fe-593a3ad58ac4" />
 
 **Troubleshooting logic:**
 
@@ -50,7 +50,7 @@ Does Outlook behave normally?
 
 - Wnd + R to run the cmd—> `outlook.exe /cleancategories`
 
-!image.png
+<img width="342" height="176" alt="image 2" src="https://github.com/user-attachments/assets/c588a46a-b4e9-4cdd-8e17-9e70cd52c207" />
 
 When to use it
 
@@ -65,7 +65,7 @@ In the demonstration, an existing category was assigned to an email. After runni
 
 This is a **reset/cleanup operation**, not a harmless diagnostic command.
 
-!image.png
+<img width="927" height="902" alt="image 1" src="https://github.com/user-attachments/assets/8c5c3e4c-6068-434d-b241-ca063e88e2bb" />
 
 ## Outlook Rules
 
@@ -79,13 +79,13 @@ Move email to specific folder
 
 - Rules are useful for automatically organizing messages.
 
-!image.png
+<img width="335" height="177" alt="image 8" src="https://github.com/user-attachments/assets/05ee2f13-a8f0-4c67-a5e5-1890fdf0a3ab" />
 
 ## Clearing Client Rules
 
 - Wnd + R to run the cmd—>`outlook.exe /cleanclientrules`
 
-!image.png
+<img width="340" height="180" alt="image 7" src="https://github.com/user-attachments/assets/697b563d-8bd9-4b9d-9dca-10c2b7f94432" />
 
 Removes the **client-side Outlook rules**.
 
@@ -101,7 +101,7 @@ Removes the **client-side Outlook rules**.
 
 - Wnd + R to run the cmd—> `outlook.exe /cleanviews`
 
-!image.png
+<img width="604" height="700" alt="image 6" src="https://github.com/user-attachments/assets/4b4d9e57-0de4-4dea-881f-958756dbe510" />
 
 Resets/clears Outlook's custom view settings.
 
@@ -115,17 +115,7 @@ Useful when:
 
 - Wnd + R to run the cmd—> `outlook.exe /nopreview`
 
-!image.png
+<img width="348" height="181" alt="image 5" src="https://github.com/user-attachments/assets/2852bf4b-4967-46c1-a4fa-3abc4a4dad69" />
 
 Starts Outlook with the **Reading Pane disabled**.
 A user is experiencing problems potentially associated with the Reading Panel or simply needs Outlook opened without message preview.
-
-CMDs Sheet<img width="295" height="225" alt="image 4" src="https://github.com/user-attachments/assets/3a417927-018d-4efb-b87d-a39bdddd0d3e" />
-<img width="387" height="376" alt="image 3" src="https://github.com/user-attachments/assets/b600ecb1-16a3-498f-80fe-593a3ad58ac4" />
-<img width="342" height="176" alt="image 2" src="https://github.com/user-attachments/assets/c588a46a-b4e9-4cdd-8e17-9e70cd52c207" />
-<img width="927" height="902" alt="image 1" src="https://github.com/user-attachments/assets/8c5c3e4c-6068-434d-b241-ca063e88e2bb" />
-<img width="335" height="177" alt="image 8" src="https://github.com/user-attachments/assets/05ee2f13-a8f0-4c67-a5e5-1890fdf0a3ab" />
-<img width="340" height="180" alt="image 7" src="https://github.com/user-attachments/assets/697b563d-8bd9-4b9d-9dca-10c2b7f94432" />
-<img width="604" height="700" alt="image 6" src="https://github.com/user-attachments/assets/4b4d9e57-0de4-4dea-881f-958756dbe510" />
-<img width="348" height="181" alt="image 5" src="https://github.com/user-attachments/assets/2852bf4b-4967-46c1-a4fa-3abc4a4dad69" />
-
