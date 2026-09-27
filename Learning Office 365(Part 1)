@@ -1,0 +1,21 @@
+## Troubleshooting Outlook Office 365 Using Command Line Switches
+
+- Goal: When troubleshooting Outlook for a user, command-line switches can be used to isolate or reset specific Outlook components.
+- **Don't immediately recreate/reinstall the Outlook profile.** Try targeted troubleshooting switches first
+
+These switches are particularly useful when dealing with:
+- Outlook crashes
+- Problematic add-ins
+- Corrupted rules
+- Corrupted/custom view settings
+- Broken categories
+- Reading-pane/view issues
+
+## Opening Outlook in Safe Mode
+
+- Wnd + R to run the cmd —> `outlook.exe /safe`
+
+
+!image.png
+
+This is useful when Outlook is behaving strangely or crashing, particularly when an **add-in** may be responsible.
